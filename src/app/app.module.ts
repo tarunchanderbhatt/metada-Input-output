@@ -3,10 +3,20 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MetaComponent } from './meta/meta.component';
+import { EncapsulationComponent } from './encapsulation/encapsulation.component';
+import { ParentComponent } from './parent/parent.component';
+import { ChildComponent } from './child/child.component';
+import { GrandChildComponent } from './grand-child/grand-child.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MetaComponent,
+    EncapsulationComponent,
+    ParentComponent,
+    ChildComponent,
+    GrandChildComponent
   ],
   imports: [
     BrowserModule,

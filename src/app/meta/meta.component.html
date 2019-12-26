@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="text-center bg-warning">Peserve White Spaces</div>
+  <button>button1</button> <button>button1</button> <button>button1</button>
+  <div class="clearfix">...</div>
+  <div class="text-center bg-warning">View Providers</div>
+  <div class="clearfix">Use for Class add metadeta</div>
+  <div class="text-center bg-warning">Interpolation:</div>
+  <div class="d-flex justify-content-around">
+    <p class="border">{{ familName }}</p>
+    <p class="border">
+      <button (click)="getFamilyName()">Get Family Name</button>
+    </p>
+    <p>{{ "Phone Number " + phone }}</p>
+    <p>{{ n1 + n2 }}</p>
+
+    <p>{{ myfun }}</p>
+
+    <ul *ngFor="let item of componey">
+      <li>{{ item.name }}</li>
+    </ul>
+  </div>
+  <div class="text-center bg-warning">Interpolation: Error Handle</div>
+  <!-- <div>{{ errorHendle && errorHendle.name }}</div> -->
+  && | ? ternery operater
+</div>
